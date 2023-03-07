@@ -1,0 +1,50 @@
+1 - Em programação, o que é uma biblioteca?
+R: Em programação biblioteca é uma maneira de compilar códigos de maneira automática, semelhante a uma função subentendida no programa para facilitar ou adicionar novas 
+funcionalidades no programa onde programando manualmente demoraria muito.
+
+2 - O que é a biblioteca Swing do Java e qual é o seu propósito?
+R: O Swing do Java é uma biblioteca com o objetivo de criar interfaces gráficas.  
+
+3 - Quais são os componentes de interface gráfica de usuário (GUI) fornecidos pela biblioteca Swing para:
+A) Botão.
+R: Classe: JButton.
+   Métodos: addActionListener();
+B) Campo de Texto.
+R: Classe: JTextField.
+   Métodos: getText() e setText("");
+C) Caixa de Seleção.
+R: Classe: JCheckBox;
+D) Barra de Progresso.
+R: Classe: JProgressBar;
+E) Botão de Opção.
+R: Classe: JRadioBultton;
+F) Caixa de Combinação.
+R: Classe: JcomboBox;
+
+4 - Quais são os propósitos dos layouts no Swing? E quais são os layouts possíveis?
+R: O propósito do layot é que por meio da biblioteca Swing possa ajudar o programador a distribuir os elementos visuais da ou das telas feita pelo mesmo dentro de um algoritmo.
+Os layouts possíveis seriam:
+FlowLayout.
+BorderLayout.
+CardLayout.
+BoxLayout.
+GridLayout.
+GridBagLayout.
+GroupLayout.
+SpringLayout.
+
+5 - Como é possível fazer a validação de entrada de dados em campos de texto?
+R: - if(var == null){
+  boolean = false;
+}else{
+  boolean = true;
+}
+ou
+boolean ver = (var==nul)?true:false;
+
+6 - Pesquise e descreva três principais características entre a biblioteca Swing, a biblioteca AWT (Abstract Window Toolkit) e o JavaFX?
+R: 
+biblioteca Swing: 
+biblioteca AWT: A própria biblioteca renderiza os elementos gráficos, tirando assim esse trabalho do sistema operacional trazendo uma portabilidade maior porém um peso 
+de processamento também maior para a máquina;
+JavaFX: Interface de facíl entendimento para lógica de programação.
